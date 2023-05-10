@@ -17,7 +17,7 @@ function addorUpdateURLParam (key, value) {
    }
   addorUpdateURLParam ("key","value")
   
-  </script)
+ </script>
  </head>
  
 <body>
