@@ -1,3 +1,4 @@
+[Link Text](https://example.com/page?id=123)
 
  <head>
   <!-- Google Tag Manager -->
