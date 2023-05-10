@@ -10,7 +10,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  </head>
  
-<body>
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-536ZXZ6"
@@ -26,6 +25,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFigvsNg5Q&#x2F;view?utm_content=DAFigvsNg5Q&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">
  
-
- </body>
 
