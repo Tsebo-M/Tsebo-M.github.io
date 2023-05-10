@@ -7,6 +7,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-536ZXZ6');</script>
 <!-- End Google Tag Manager -->  
+  <script>
+function addorUpdateURLParam (key, value) {
+  const searchParams = new URLSearchParams (window. location.search)
+  searchParams. set(key, , value)
+  const newRelativePathQuery = window. location.pathname + "?" +
+  searchParams. toString()
+  history.pushState(null,"", newRelativePathQuery)
+   }
+  addorUpdateURLParam ("key","value")
+  
+  </script)
  </head>
  
 <body>
