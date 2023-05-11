@@ -40,19 +40,20 @@ window.dataLayer = window.dataLayer || [];
 <!--<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFigvsNg5Q&#x2F;view?utm_content=DAFigvsNg5Q&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">
   --> 
 <script>
+ // JS function for api implemetation
   function binGetRequest() {
   var xhr = new XMLHttpRequest();
   xhr.open("GET", "https://httpbin.org/get?key=key&value=value", true);
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4 && xhr.status === 200) {
-      // Handle the response data here
+      // log to console
       console.log(xhr.responseText);
     }
   };
   xhr.send();
 }
  </script>
-<button type="button" onclick="binGetRequest()">Get Request </button>
+<button type="button" onclick="binGetRequest()">Click Me</button>
 
  
  </body>
