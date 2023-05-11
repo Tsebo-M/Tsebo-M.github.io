@@ -1,6 +1,10 @@
 
  <head>
-  <!-- Google Tag Manager -->
+  <script>
+   
+  window.dataLayer = window.dataLayer || [];
+  </scrpt>
+   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
@@ -22,7 +26,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 function pushToDataLayer(key,value) {
  
 window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({'event': 'new_login'});
+  window.dataLayer.push({'event': 'login'});
 
   });
  pushToDataLayer('key', 'value');
@@ -47,7 +51,7 @@ window.dataLayer = window.dataLayer || [];
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4 && xhr.status === 200) {
       // log to console
-     pushToDataLayer('key','new_login');
+    
       console.log(xhr.responseText);
     }
   };
