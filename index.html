@@ -22,7 +22,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 function pushToDataLayer(key,value) {
  
 window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push({'event': 'new_email'});
+  window.dataLayer.push({'event': 'new_login'});
 
   });
  pushToDataLayer('key', 'value');
@@ -47,6 +47,7 @@ window.dataLayer = window.dataLayer || [];
   xhr.onreadystatechange = function() {
     if (xhr.readyState === 4 && xhr.status === 200) {
       // log to console
+     pushToDataLayer('key','new_login');
       console.log(xhr.responseText);
     }
   };
